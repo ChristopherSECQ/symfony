@@ -1,0 +1,8 @@
+index:
+    path: /
+    controller: App\Controller\TechNews\FrontController::index
+
+# copier coller de index, pour la nouvelle page contact /  il faut aussi la créer dans le src/Controller/monprojet/page.php / ici présent il s'agira du projet TechNews et de la page FrontController.php
+contact:
+    path: /contact
+    controller: App\Controller\TechNews\FrontController::contact
